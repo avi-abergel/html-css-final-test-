@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  height: 200px;
+  width: 400px;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th,
+td {
+  background-color: rgb(70, 142, 167);
+  color: white;
+}
+th {
+  text-transform: capitalize;
+}

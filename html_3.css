@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  height: 100px;
+  width: 100px;
+  grid-template-areas:
+    "header header header"
+    "nav article aside"
+    "footer footer footer";
+}
+header {
+  grid-area: header;
+  background-color: aqua;
+}
+nav {
+  grid-area: nav;
+  background-color: darkorchid;
+}
+article {
+  grid-area: article;
+  background-color: red;
+}
+p {
+  grid-area: aside;
+  background-color: cornflowerblue;
+}
+footer {
+  grid-area: footer;
+  background-color: darksalmon;
+}
